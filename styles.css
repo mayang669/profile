@@ -424,3 +424,29 @@ header {
 }
 
 /* Button Styles */
+/* Welcome Text Styles */
+.welcome-text {
+    font-size: 3em; /* Larger size for desktop */
+    font-weight: 700;
+    color: #f39c12;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid #f39c12; /* Cursor effect */
+    animation: textWrite 4s steps(40, end) 1s 1 normal both, fadeInText 1s ease-in-out;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .welcome-text {
+        font-size: 2.5em; /* Slightly smaller for medium screens */
+        margin-bottom: 15px; /* Adjust margin for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-text {
+        font-size: 2em; /* Further reduce font size for small screens */
+        margin-bottom: 10px; /* Further adjust margin */
+    }
+}

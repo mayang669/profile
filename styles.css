@@ -418,3 +418,23 @@ header {
         height: 40px;
     }
 }
+.quotes-link {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.quotes-button {
+    display: inline-block;
+    background: #f39c12; /* Button color */
+    color: #0b0b0b; /* Text color */
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.quotes-button:hover {
+    background: #f39c12; /* Darker color on hover */
+    transform: scale(1.05);
+}
